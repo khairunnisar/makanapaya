@@ -102,7 +102,20 @@ h2 {
     <table width="1330" height="201" border="1" cellpadding="10" cellspacing="10">
     <tr>
       <td height="21" colspan="2" bgcolor="#FFFFCC"><strong>Cari Berdasarkan Kategori :</strong></td>
-      <td width="903" rowspan="6">&nbsp;</td>
+      <td width="903" rowspan="6" valign="top"><p>Tentang Makan Apa Ya : </p>
+        <blockquote>
+          <p>Portal informasi “Makan Apa Ya” berfungsi sebagai wadah untuk mengumpulkan berbagai informasi tempat makan yang bertempat di Surabaya. Sebagai sebuah portal, tentunya website ini memberi kemudahan dalam melakukan pencarian tempat makan Surabaya baik yang diinginkan maupun yang terekomendasi berdasarkan kategorinya</p>
+          <p>Dibuat Oleh:<br>
+            Khairunnisa Rofifah | 5212100148<br>
+          Jurusan Sistem Informasi - ITS</p>
+          <table width="200" border="0">
+            <tr>
+              <td width="108"><img src="image/si.jpg" width="103" height="57"  alt=""/></td>
+              <td width="76"><img src="image/its.jpg" width="105" height="57"  alt=""/></td>
+            </tr>
+          </table>
+          <p>&nbsp;</p>
+        </blockquote></td>
     </tr>
     <tr>
       <td width="138" height="10" nowrap="nowrap"><strong>

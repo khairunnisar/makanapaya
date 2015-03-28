@@ -63,7 +63,7 @@ h2 {
 <h1><strong><u>Makan Apa Ya?</u></strong></h1>
 <h2><strong id="header"><em>Portal Informasi Pencarian Tempat Makan di Surabaya</em></strong></h2>
 </div> 
-  <div id="register">
+<div id="register">
     <table width="100%" height="34" border="0" align="center" cellpadding="0" cellspacing="0">
       <tr bgcolor="#F0F0F0">
         <td align="right" valign="middle">
@@ -81,7 +81,7 @@ h2 {
     </table>
 </div>
   <div id="navigasi">
-    <table width="100%" border="0" cellpadding="0" cellspacing="5">
+    <table width="1320" border="0" cellpadding="0" cellspacing="5">
       <tr>
         <td width="158" height="25" bgcolor="#FFFF99"><div align="center"><strong><a href="index.php">Beranda</a></strong></div></td>
         <td width="272" bgcolor="#FFFF99"><div align="center"><strong><a href="tentang.php">Tentang Kami</a></strong></div></td>
@@ -98,74 +98,78 @@ h2 {
   </div>
 <table width="960" border="0" cellpadding="10" cellspacing="10">
 <tr></tr>
-  <div id="conten">
-    <table width="1330" height="201" border="1" cellpadding="10" cellspacing="10">
+  <table width="100%" height="533" border="1" cellpadding="5" cellspacing="10">
     <tr>
-      <td height="21" colspan="2" bgcolor="#FFFFCC"><strong>Cari Berdasarkan Kategori :</strong></td>
-      <td width="903" rowspan="6">&nbsp;</td>
+      <td width="30%" height="31" bgcolor="#FFFFCC"><strong>  Cari Berdasarkan Kategori :</strong></td>
+      <td width="70%" bgcolor="#FFFFCC"><strong>Daftar Tempat Makan [Range Harga
+        :   
+      ]:</strong></td>
     </tr>
     <tr>
-      <td width="138" height="10" nowrap="nowrap"><strong>
-        <label for="harga">Harga :    </label>
-      </strong></td>
-      <td width="189" height="10"><select name="harga" id="harga" title="Harga">
-        <option selected>Rp.10.000 - Rp.20.000</option>
-        <option>Rp.21.000 - Rp.30.000</option>
-      </select></td>
-    </tr>
-    <tr>
-      <td height="22"><strong>
-        <label for="lokasi">Lokasi:</label>
-      </strong></td>
-      <td height="22"><select name="lokasi" id="lokasi2" title="lokasi">
-        <option>Lokasi</option>
-      </select></td>
-    </tr>
-    <tr>
-      <td height="22"><strong>
-        <label for="lokasi">Jenis Makanan:</label>
-      </strong></td>
-      <td height="22"><select name="jenismakanan" id="jenismakanan" title="jenis makanan">
-        <option>Jenis Makanan</option>
-      </select></td>
-    </tr>
-    <tr>
-      <td height="10"><strong>
-        <label for="lokasi">Jenis Tempat Makan:</label>
-      </strong></td>
-      <td height="10"><select name="jenistempatmakan" id="jenistempatmakan" title="jenistempatmakan">
-        <option>Jenis Tempat Makan</option>
-      </select></td>
-    </tr>
-    <tr>
-      <td height="22"><strong>
-        <label for="lokasi">Rating:</label>
-      </strong></td>
-      <td height="22"><select name="rating" id="lokasi" title="rating">
-        <option>Rating</option>
-      </select></td>
+      <td height="395" valign="top"><div id="conten">
+        <table width="100%" height="296" border="1" cellpadding="5" cellspacing="7">
+          <tr>
+            <td width="136" height="10" valign="top" nowrap="nowrap"><strong>
+              <label for="harga">Harga  </label>
+            </strong></td>
+            <td width="156" height="10" valign="top">: 
+              <select name="harga" id="harga" title="Harga">
+              <option>Rp.10.000 - Rp.20.000</option>
+              <option>Rp.21.000 - Rp.30.000</option>
+              <option>Rp. 31.000 - Rp.40.000</option>
+              <option>Rp.41.000 - Rp. 51.000</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td height="22" valign="top"><strong>
+              <label for="lokasi">Lokasi</label>
+            </strong></td>
+            <td height="22" valign="top">: 
+              <select name="lokasi" id="lokasi2" title="lokasi">
+              <option>Lokasi</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td height="22" valign="top"><strong>
+              <label for="lokasi">Jenis Makanan</label>
+            </strong></td>
+            <td height="22" valign="top">: 
+              <select name="jenismakanan" id="jenismakanan" title="jenis makanan">
+              <option>Jenis Makanan</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td height="10" valign="top"><strong>
+              <label for="lokasi">Jenis Tempat Makan</label>
+            </strong></td>
+            <td height="10" valign="top">: 
+              <select name="jenistempatmakan" id="jenistempatmakan" title="jenistempatmakan">
+              <option>Jenis Tempat Makan</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td height="32" valign="top"><strong>
+              <label for="lokasi">Rating</label>
+            </strong></td>
+            <td height="32" valign="top">: 
+              <select name="rating" id="lokasi" title="rating">
+              <option>Rating</option>
+            </select></td>
+          </tr>
+        </table>
+      </div></td>
+      <td valign="top"><p>&nbsp;</p>
+        <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p></td>
     </tr>
   </table>
-</div>
-<div id="sidebar"></div>
-<div id="footer">  
-  <table width="1330" height="314" border="1" cellpadding="5" cellspacing="10">
-    <tr>
-      <td width="330" height="23" bgcolor="#FFFFCC"><form id="form1" name="form1" method="post">
-        <strong>Tempat Makan Populer Bulan Ini
-        </strong>
-      </form></td>
-      <td colspan="2" bgcolor="#FFFFFF"><form id="form2" name="form2" method="post">
-        <div align="center"><strong>Tempat Makan Baru </strong></div>
-      </form></td>
-    </tr>
-    <tr>
-      <td height="234">&nbsp;</td>
-      <td width="440">&nbsp;</td>
-      <td width="420">&nbsp;</td>
-    </tr>
-  </table>
-</div></div>
+  <p>&nbsp;</p>
+<div id="sidebar"></div></div>
 
 
 </body>

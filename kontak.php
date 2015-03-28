@@ -102,7 +102,9 @@ h2 {
     <table width="1330" height="201" border="1" cellpadding="10" cellspacing="10">
     <tr>
       <td height="21" colspan="2" bgcolor="#FFFFCC"><strong>Cari Berdasarkan Kategori :</strong></td>
-      <td width="903" rowspan="6">&nbsp;</td>
+      <td width="903" rowspan="6" valign="top"><p><em><strong>Kontak</strong></em></p>
+        <p>Nama : Khairunnisa Rofifah</p>
+        <p>Email : makanapaya@gmail..com        </p>        <p>&nbsp;</p></td>
     </tr>
     <tr>
       <td width="138" height="10" nowrap="nowrap"><strong>
