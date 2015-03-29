@@ -86,7 +86,7 @@ h2 {
         <td width="158" height="25" bgcolor="#FFFF99"><div align="center"><strong><a href="index.php">Beranda</a></strong></div></td>
         <td width="272" bgcolor="#FFFF99"><div align="center"><strong><a href="tentang.php">Tentang Kami</a></strong></div></td>
         <td width="297" bgcolor="#FFFF99"><div align="center"><strong><a href="daftartempatmakan.php">Daftar Tempat Makan</a></strong></div></td>
-        <td width="225" bgcolor="#FFFFCC"><div align="center"><strong><a href="kontak.php">Kontak</a></strong></div></td>
+        <td width="225" bgcolor="#FFFFCC"><div align="center"><strong><li id="current"<a href="kontak.php">Kontak</a></li></strong></div></td>
         <td width="324"><strong>
           <label for="search5"><em>Search:</em></label>
           <a href="#">

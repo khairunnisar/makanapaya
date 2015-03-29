@@ -63,7 +63,14 @@ h2 {
 <h1><strong><u>Makan Apa Ya?</u></strong></h1>
 <h2><strong id="header"><em>Portal Informasi Pencarian Tempat Makan di Surabaya</em></strong></h2>
 </div> 
-  <div id="register"></div>
+  <div id="register">
+    <table width="100%" border="0">
+      <tr>
+        <td width="92%" height="29" align="center" valign="middle">Selamat datang ini adalah halaman Admin [ ] </td>
+        <td width="8%"><a href="#">Log out</a></td>
+      </tr>
+    </table>
+  </div>
 <table width="960" border="0" cellpadding="10" cellspacing="10">
 <tr></tr>
   <div id="conten">
@@ -74,20 +81,23 @@ h2 {
     <tr>
       <td height="375" colspan="2" align="center" valign="top" nowrap="nowrap"><table width="304" height="122" border="0">
         <tr>
+        <form action="loginadmin.php" method="post" name="input">
           <td width="97">Username</td>
           <td width="191">:
-            <input name="textfield" type="text" required="required" id="textfield" size="31"></td>
+            <input name="usernameadmin" type="text" formmethod="post" required id="usernameadmin" size="31"></td>
         </tr>
         <tr>
           <td>Password</td>
           <td>:
-            <input name="password" type="password" required="required" id="password" size="31"></td>
+            <input name="passwordadmin" type="password" formmethod="post" required id="passwordadmin" size="31"></td>
         </tr>
         <tr>
           <td>&nbsp;</td>
-          <td align="right" valign="middle"> <input name="submitadmin" type="submit" id="submitadmin" formmethod="POST" value="Submit"></td>
+          <td align="right" valign="middle">  <input name="submitadmin" type="submit" value="Submit"></form></td>
         </tr>
-      </table></td>
+      </table>
+      </form>
+      </td>
       </tr>
     </table>
 </div>

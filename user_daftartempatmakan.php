@@ -63,20 +63,12 @@ h2 {
 <h1><strong><u>Makan Apa Ya?</u></strong></h1>
 <h2><strong id="header"><em>Portal Informasi Pencarian Tempat Makan di Surabaya</em></strong></h2>
 </div> 
-<div id="register">
-    <table width="100%" height="34" border="0" align="center" cellpadding="0" cellspacing="0">
+  <div id="register">
+    <table width="100%" height="34" border="0" align="center" cellpadding="0" cellspacing="3">
       <tr bgcolor="#F0F0F0">
-        <td align="right" valign="middle">
-<form action="actionlogin.php" method="post" name="input">
-          <input name="username" type="text" required id="username" autocomplete="on" value="Username">
-          <input name="password" type="password" required id="password" value="Password">
-          <input type="submit" name="signin_button" id="signin_button" value="Sign in">
-</form></td>
-        <td width="66" align="right" valign="middle">
-        <form action="signup.php">
-        <input name="signup_button" type="submit" id="signup_button" formaction="signup.php" value="Sign Up">
-      </form>
-      </td>
+        <td width="91%" align="right" valign="middle">Selamat Datang, [ 
+        ]  </td>
+        <td width="9%" align="center" valign="middle"> <a href="#">Sign Out</a></td>
       </tr>
     </table>
 </div>
